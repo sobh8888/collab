@@ -1,0 +1,512 @@
+.service-background {
+    background-image: url('./images/bhubaneswar\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.logistic-background {
+    background-image: url('./images/local-logistic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.logisticctc-background{
+    background-image: url('./images/logistics-services-in-cuttack.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.logisticbam-background{
+    background-image: url('./images/logistics-services-in-berhampur.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.houseshift-background{
+    background-image: url('./images/house-shifting-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.housebbsr-background{
+    background-image: url('./images/bhubaneswar\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+.service-heading {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-left: 50px;
+}
+
+/* Content section layout */
+.service-content-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    margin: 60px;
+    padding: 20px;
+    gap: 60px;
+}
+
+.service-content-left {
+    flex: 1; /* Allow it to grow based on available space */
+    min-width: 300px; /* Minimum width to maintain readability */
+}
+
+.service-rightside-cont {
+    flex: 0 0 250px; /* Fixed width of 250px, adjust as needed */
+    max-height: 500px;
+}
+
+.service-content-right {
+    flex: 1; /* Allow it to grow based on available space */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #ccc; /* Add a border line */
+    padding: 20px; /* Add padding for space inside the border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    height: 100%; /* Set height to 100% of the parent or define a specific height */
+    max-height: 600px; /* Set a max height based on your design */
+   text-wrap: nowrap;
+}
+
+/* Left side styling */
+.service-content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-content-heading {
+    font-size: 2rem; /* Adjusted for responsiveness */
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 145%;
+}
+.service-content-heading-sub{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #000;
+    line-height: 145%;
+    
+}
+
+.service-content-paragraph {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666;
+}
+.local-link{
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666;
+}
+.local-link span{
+    color: #000;
+}
+.local-link span:hover{
+    color: #DC143C;
+}
+/* Right side button styling */
+.service-content-button {
+    width: auto;
+    padding: 14px;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    display: flex; 
+    font-weight: 600;
+}
+
+.service-content-button:hover {
+    background-color: #DC143C;
+}
+
+.service-help-box {
+    background-color: #DC143C; /* Red background */
+    color: white; /* Text color */
+    padding: 20px; /* Padding for inner spacing */
+    margin-top: 20px; /* Space above the box */
+    width: 88%; /* Ensure it takes full width */
+}
+
+.service-help-heading {
+    font-size: 24px; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    font-weight: 700;
+    color: #fff;
+}
+
+.service-help-paragraph {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px; /* Space below the paragraph */
+    text-align: justify;
+}
+
+.service-contact-heading {
+    font-size: 20px; /* Font size for the contact heading */
+    margin-bottom: 5px; /* Space below the contact heading */
+    margin-left: 8px !important;
+}
+
+.service-contact-number {
+    font-size: 18px; /* Font size for the phone number */
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #DC143C, 0 0 20px #DC143C, 0 0 25px #DC143C;
+        transform: scale(1);
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #DC143C, 0 0 40px #DC143C, 0 0 50px #DC143C;
+        transform: scale(1.1);
+    }
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #DC143C, 0 0 20px #DC143C, 0 0 25px #DC143C;
+        transform: scale(1);
+    }
+}
+
+.service-futuristic-icon {
+    animation: glow 1.5s infinite; /* Apply glowing animation */
+    transition: transform 0.3s; /* Smooth scaling */
+}
+
+.service-futuristic-icon:hover {
+    transform: scale(1.2); /* Scale up on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 999px) {
+    .service-content-section {
+        flex-direction: column; /* Stack items vertically */
+        margin: 30px; /* Adjust margin */
+        gap: 30px; /* Reduce gap for smaller screens */
+    }
+    .service-rightside-cont {
+        flex: 1; /* Allow right side to take available width */
+        max-height: none; /* Remove fixed height for flexibility */
+    }
+}
+
+@media (max-width: 480px) {
+    .service-content-heading {
+        font-size: 1.5rem; /* Smaller font size on very small screens */
+    }
+    .service-content-paragraph {
+        font-size: 16px; /* Adjust font size */
+    }
+    .local-link{
+        font-size: 16px;
+    }
+    .service-contact-heading {
+        font-size: 18px; /* Adjust font size */
+    }
+    .service-contact-number {
+        font-size: 16px; /* Adjust font size */
+    }
+}
+
+/* Responsive adjustments */
+
+
+@media (max-width: 768px) {
+    .service-background {
+      height: 50vh;
+      justify-content: center;
+      padding: 10px;
+    }
+    .logistic-background{
+        height: 50vh;
+      justify-content: center;
+      padding: 10px;
+      }
+      .logisticctc-background{
+        height: 50vh;
+        justify-content: center;
+        padding: 10px;
+      }
+      .logisticbam-background{
+        height: 50vh;
+        justify-content: center;
+        padding: 10px;
+      }
+      .houseshift-background{
+        height: 50vh;
+        justify-content: center;
+        padding: 10px;
+      }
+      .housebbsr-background{
+        height: 50vh;
+        justify-content: center;
+        padding: 10px;
+      }
+    .service-heading {
+      font-size: 2rem;
+      margin-left: 20px;
+    }
+  }
+  
+  /* Mobile screens */
+  @media (max-width: 480px) {
+    .service-background {
+      height: 40vh;
+      justify-content: center;
+      padding: 5px;
+    }
+    .logistic-background{
+        height: 40vh;
+        justify-content: center;
+        padding: 5px;
+      }
+      .logisticctc-background{
+        height: 40vh;
+        justify-content: center;
+        padding: 5px;
+      }
+    .service-heading {
+      font-size: 1.5rem;
+      margin-left: 0;
+      text-align: center;
+    }
+    .logisticbam-background{
+        height: 40vh;
+        justify-content: center;
+        padding: 5px;
+      }
+      .houseshift-background{
+        height: 40vh;
+        justify-content: center;
+        padding: 5px;
+      }
+      .housebbsr-background{
+        height: 40vh;
+        justify-content: center;
+        padding: 5px;
+      }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .box-container {
+    display: flex;
+    gap: 20px; /* Spacing between boxes */
+    margin-top: 20px;
+    justify-content: space-between; /* Align boxes evenly */
+}
+/* Individual box styling */
+/* Container for the three boxes */
+.box-container {
+    display: flex;
+    gap: 20px; /* Spacing between boxes */
+    margin-top: 20px;
+    justify-content: space-between;
+}
+/* Individual box styling */
+.box {
+    flex: 1 1 30%; /* Base width for medium screens */
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+/* Hover effect */
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 5px rgba(220, 20, 60, 0.6);
+    background-color: #DC143C;
+}
+/* Icon styling */
+.box-icon {
+    font-size: 30px;
+    color: #DC143C;
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+/* Heading styling for box */
+.box-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+/* Paragraph styling for box */
+.box-paragraph {
+    font-size: 15px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+/* Futuristic effect on hover */
+.box:hover .box-icon {
+    color: #fff;
+    transform: rotate(360deg);
+}
+.box:hover .box-heading,
+.box:hover .box-paragraph {
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .box-container {
+        flex-direction: column; /* Stack boxes in a column */
+        gap: 20px; /* Spacing between boxes */
+        align-items: center; /* Center align for a balanced look */
+    }
+    .box {
+        flex: 1 1 100%; /* Full width for each box */
+        max-width: 100%; /* Ensures boxes don’t exceed the screen width */
+    }
+}
+.service-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* Form heading */
+.service-form-heading {
+    font-size: 34px;
+    font-weight: 700;
+    color: #DC143C;
+    margin-bottom: 20px;
+    text-align: Left;
+}
+/* Row styling */
+.service-form-row {
+    display: flex;
+    gap: 20px; /* Space between columns */
+    margin-bottom: 15px;
+}
+/* Form group styling */
+.service-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* Labels */
+.service-form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+/* Inputs */
+.service-form-input {
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #000;
+}
+/* Textarea */
+.service-form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+/* Button styling */
+.service-form-button {
+    width: 30%;
+    padding: 14px;
+    background-color: #DC143C;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+/* Button hover effect */
+.service-form-button:hover {
+    background-color: #C4122B!important;
+}
+/* Responsive layout for form */
+@media (max-width: 768px) {
+    .service-form-row {
+        flex-direction: column; /* Stack fields on smaller screens */
+    }
+    .service-form-button {
+        width: 50%;
+    }
+}
